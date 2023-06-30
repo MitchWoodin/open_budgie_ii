@@ -5,5 +5,5 @@ Open Source Budgeting App
 
 ```powershell
 python -m venv venv
-pip install -r requirements-dev.txt
+pip install -r requirements-dev.txt -r requirements.txt
 ```
