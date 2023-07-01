@@ -1,3 +1,4 @@
+factory-boy==3.2.1
 pip-tools
 pytest-django==4.5.2
 pytest-socket==0.6.0
