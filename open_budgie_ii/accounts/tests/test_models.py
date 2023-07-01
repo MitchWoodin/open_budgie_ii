@@ -1,3 +1,5 @@
+import pytest
+
 from open_budgie_ii.accounts.tests.factories import UserFactory
 
 
