@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+addopts = "--nomigrations --disable-socket"
+DJANGO_SETTINGS_MODULE = "project.testing_settings"
+filterwarnings = [
+    # Enable warngings as errors.
+    "error",
+]
+
+testpaths = [
+    "open_budgie_ii"
+]
