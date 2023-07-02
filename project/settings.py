@@ -18,6 +18,7 @@ import environ
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 env = environ.Env(
+    ACCOUNT_DEFAULT_HTTP_PROTOCOL=(str, 'https'),
     ALLOWED_HOSTS=(list, []),
     DEBUG=(bool, False),
 )
@@ -134,6 +135,22 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Django allauth settings
+
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_CONFIRM_EMAIL_ON_GET = True
+# TODO: Set LOGIN_URL
+# TODO: Set LOGIN_REDIRECT_URL
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_EMAIL_SUBJECT_PREFIX = 'Open Budgie - '
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = env("ACCOUNT_DEFAULT_HTTP_PROTOCOL")
+ACCOUNT_LOGIN_ON_EMAIL_CONFIRMATION = True
+ACCOUNT_PRESERVE_USERNAME_CASING = False
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
+ACCOUNT_USER_DISPLAY = lambda user: user.email
+ACCOUNT_USERNAME_REQUIRED = False
 
 # Sites
 
