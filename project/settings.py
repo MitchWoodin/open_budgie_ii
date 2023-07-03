@@ -146,8 +146,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_CONFIRM_EMAIL_ON_GET = True
-# TODO: Set LOGIN_URL
-# TODO: Set LOGIN_REDIRECT_URL
+LOGIN_REDIRECT_URL = "/"  # TODO: Replace with actual login redirect url (eg home)
+LOGOUT_REDIRECT_URL = "/"  # TODO: Replace with actual logout redirect url (eg home)
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_SUBJECT_PREFIX = 'Open Budgie - '
