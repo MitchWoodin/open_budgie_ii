@@ -21,6 +21,7 @@ env = environ.Env(
     ACCOUNT_DEFAULT_HTTP_PROTOCOL=(str, 'https'),
     ALLOWED_HOSTS=(list, []),
     DEBUG=(bool, False),
+    EMAIL_BACKEND=(str, 'TODO: Replace with actual email backend'),
 )
 
 environ.Env.read_env(BASE_DIR / ".env")
@@ -115,6 +116,10 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
+
+# Email
+
+EMAIL_BACKEND = env("EMAIL_BACKEND")
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
