@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'open_budgie_ii.accounts',
+    'open_budgie_ii.core',
 ]
 
 MIDDLEWARE = [
