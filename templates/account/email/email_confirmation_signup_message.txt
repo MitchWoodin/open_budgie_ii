@@ -1,0 +1,6 @@
+Welcome to OpenBudgie!
+
+To start smashing your savings goals, you will need to verify your email address here {{ activate_url }} .
+
+Regards,
+Mitchell from OpenBudgie
