@@ -24,3 +24,4 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('firm-office/', admin.site.urls),
 ]
+

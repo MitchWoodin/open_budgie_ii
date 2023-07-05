@@ -8,3 +8,4 @@ class TestUser:
         user = UserFactory()
 
         assert user is not None
+
