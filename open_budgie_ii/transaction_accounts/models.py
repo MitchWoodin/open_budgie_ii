@@ -1,3 +1,9 @@
 from django.db import models
 
-# Create your models here.
+
+class TransactionAccount(models.Model):
+    """
+    An account for transactions to be made.
+    """
+
+    name = models.CharField(max_length=100)
