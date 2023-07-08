@@ -11,4 +11,3 @@ class TestIndex:
 
         response = client.get(reverse('index'))
         assert response.status_code == 200
-

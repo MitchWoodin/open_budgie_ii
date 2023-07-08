@@ -1,4 +1,4 @@
-from django.http import HttpRequest,  HttpResponse
+from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
 
@@ -9,4 +9,4 @@ def index(request: HttpRequest) -> HttpResponse:
     @return: render of the index.html template
     """
     context = {}
-    return render(request, 'core/index.html', context)
+    return render(request, "core/index.html", context)

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9956182-d1f7-4cf3-ae27-243a12be90b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_budgie_ii/accounts/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_budgie_ii/accounts/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_budgie_ii/core/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_budgie_ii/core/tests/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_budgie_ii/accounts/tests/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_budgie_ii/accounts/tests/factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/testing_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/testing_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements-dev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_message.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +221,7 @@
       <workItem from="1688594454666" duration="220000" />
       <workItem from="1688594692135" duration="42000" />
       <workItem from="1688594746817" duration="47000" />
+      <workItem from="1688700874636" duration="36000" />
     </task>
     <servers />
   </component>
