@@ -51,8 +51,8 @@ INSTALLED_APPS = [
     "allauth.account",
     "allauth.socialaccount",
     "django_extensions",
-    "open_budgie_ii.accounts",
     "open_budgie_ii.core",
+    "open_budgie_ii.users",
 ]
 
 MIDDLEWARE = [
@@ -97,7 +97,7 @@ DATABASES = {
 
 # Auth
 
-AUTH_USER_MODEL = "accounts.User"
+AUTH_USER_MODEL = "users.User"
 
 AUTH_PASSWORD_VALIDATORS = [
     {
