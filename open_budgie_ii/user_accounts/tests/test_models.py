@@ -1,4 +1,4 @@
-from openbudgie_ii.user_accounts.tests.factories import UserFactory
+from open_budgie_ii.user_accounts.tests.factories import UserFactory
 
 
 class TestUser:
