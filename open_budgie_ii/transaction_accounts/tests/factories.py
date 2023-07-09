@@ -8,6 +8,9 @@ class TransactionAccountFactory(factory.django.DjangoModelFactory):
         model = "transaction_accounts.TransactionAccount"
 
     name = factory.Sequence(lambda n: f"user_{n}")
+    transaction_type = factory.Sequence(lambda n: f"type_{n}")
     initial_balance = 20
     current_balance = initial_balance + 20
-    user = UserFactory()
+    net_worth = True
+
+    # user = UserFactory()
