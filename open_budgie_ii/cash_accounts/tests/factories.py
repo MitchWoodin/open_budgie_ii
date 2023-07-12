@@ -3,9 +3,9 @@ import factory
 from open_budgie_ii.user_accounts.tests.factories import UserFactory
 
 
-class TransactionAccountFactory(factory.django.DjangoModelFactory):
+class CashAccountFactory(factory.django.DjangoModelFactory):
     class Meta:
-        model = "transaction_accounts.TransactionAccount"
+        model = "cash_accounts.CashAccount"
 
     name = factory.Sequence(lambda n: f"user_{n}")
     transaction_type = factory.Sequence(lambda n: f"type_{n}")

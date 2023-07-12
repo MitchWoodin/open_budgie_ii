@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class TransactionAccount(models.Model):
+class CashAccount(models.Model):
     """
     An account for transactions to be made.
     """

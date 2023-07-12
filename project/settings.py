@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "django_extensions",
     "open_budgie_ii.core",
-    "open_budgie_ii.transaction_accounts",
+    "open_budgie_ii.cash_accounts",
     "open_budgie_ii.user_accounts",
 ]
 
