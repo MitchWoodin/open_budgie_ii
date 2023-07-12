@@ -11,3 +11,7 @@ class TransactionAccount(models.Model):
     initial_balance = models.FloatField()
     current_balance = models.FloatField()
     net_worth = models.BooleanField()
+    user = models.OneToOneField(
+        "user_accounts.User",
+        on_delete=models.CASCADE,
+    )

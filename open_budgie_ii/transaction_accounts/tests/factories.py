@@ -13,4 +13,6 @@ class TransactionAccountFactory(factory.django.DjangoModelFactory):
     current_balance = initial_balance + 20
     net_worth = True
 
-    # user = UserFactory()
+    user = factory.SubFactory(
+        "open_budgie_ii.user_accounts.tests.factories.UserFactory"
+    )
