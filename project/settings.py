@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django_extensions",
     "open_budgie_ii.core",
     "open_budgie_ii.cash_accounts",
+    "open_budgie_ii.transactions",
     "open_budgie_ii.user_accounts",
 ]
 

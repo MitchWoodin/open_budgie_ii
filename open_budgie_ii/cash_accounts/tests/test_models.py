@@ -6,7 +6,7 @@ from open_budgie_ii.cash_accounts.tests.factories import (
 class TestCashAccount:
     def test_factory(self):
         """
-        A factory produces a valid transaction account.
+        A factory produces a valid cash account.
         """
 
         cash_account = CashAccountFactory()
