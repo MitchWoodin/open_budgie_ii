@@ -2,7 +2,7 @@ from open_budgie_ii.transactions.tests.factories import TransactionFactory
 
 
 class TestTransaction:
-    def test_factory(self):
+    def test_transaction_factory(self):
         """
         A transaction factory produces a valid transaction:
         """
