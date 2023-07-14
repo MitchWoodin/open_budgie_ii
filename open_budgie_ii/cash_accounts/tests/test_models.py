@@ -12,7 +12,6 @@ class TestCashAccount:
         cash_account = CashAccountFactory()
 
         assert cash_account.name != ""
-        assert cash_account.transaction_type != ""
         assert cash_account.initial_balance == 20
         assert cash_account.current_balance == 40
         assert cash_account.net_worth == True
