@@ -1,4 +1,4 @@
-from open_budgie_ii.cash_accounts.tests.factories import (
+from features.cash_accounts.tests.factories import (
     CashAccountFactory,
 )
 

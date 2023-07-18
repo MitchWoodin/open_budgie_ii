@@ -1,6 +1,6 @@
 import factory
 
-from open_budgie_ii.user_accounts.tests.factories import UserFactory
+from features.user_accounts.tests.factories import UserFactory
 
 
 class CashAccountFactory(factory.django.DjangoModelFactory):
@@ -12,6 +12,4 @@ class CashAccountFactory(factory.django.DjangoModelFactory):
     current_balance = initial_balance + 20
     net_worth = True
 
-    user = factory.SubFactory(
-        "open_budgie_ii.user_accounts.tests.factories.UserFactory"
-    )
+    user = factory.SubFactory("features.user_accounts.tests.factories.UserFactory")

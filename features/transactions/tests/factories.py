@@ -10,7 +10,7 @@ class TransactionFactory(factory.django.DjangoModelFactory):
     date = factory.LazyFunction(datetime.datetime.now)
     description = factory.Faker("word")
     source_account = factory.SubFactory(
-        "open_budgie_ii.cash_accounts.tests.factories.CashAccountFactory"
+        "features.cash_accounts.tests.factories.CashAccountFactory"
     )
     destination_account = factory.Faker("word")
     amount = 23.32

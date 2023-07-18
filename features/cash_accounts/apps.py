@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CoreConfig(AppConfig):
+class CashAccountsConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "open_budgie_ii.core"
+    name = "features.cash_accounts"

@@ -1,6 +1,6 @@
 import pytest
 
-from open_budgie_ii.user_accounts.tests.factories import UserFactory
+from features.user_accounts.tests.factories import UserFactory
 
 
 class TestUser:

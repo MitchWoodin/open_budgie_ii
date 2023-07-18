@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     "allauth.account",
     "allauth.socialaccount",
     "django_extensions",
-    "open_budgie_ii.core",
-    "open_budgie_ii.cash_accounts",
-    "open_budgie_ii.transactions",
-    "open_budgie_ii.user_accounts",
+    "features.core",
+    "features.cash_accounts",
+    "features.transactions",
+    "features.user_accounts",
 ]
 
 MIDDLEWARE = [
@@ -153,9 +153,3 @@ ACCOUNT_USERNAME_REQUIRED = False
 # Sites
 
 SITE_ID = 1
-
-this_list = [
-    "item 1",
-    "item 2",
-    "item 3",
-]

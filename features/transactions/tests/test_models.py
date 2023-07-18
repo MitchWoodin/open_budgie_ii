@@ -1,4 +1,4 @@
-from open_budgie_ii.transactions.tests.factories import TransactionFactory
+from features.transactions.tests.factories import TransactionFactory
 
 
 class TestTransaction:

@@ -1,5 +1,5 @@
 from django.urls import reverse
-from open_budgie_ii.core.views import index
+from features.core.views import index
 
 
 class TestIndex:
@@ -9,5 +9,5 @@ class TestIndex:
         @param client: Django server client  # TODO: Check this is accurate
         """
 
-        response = client.get(reverse('index'))
+        response = client.get(reverse("index"))
         assert response.status_code == 200
